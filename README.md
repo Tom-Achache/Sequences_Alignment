@@ -2,7 +2,7 @@
 
 ## Overview 
 
-Adaptation of the Needleman-Wunsch algorithm (which computes a global alignment between sequences) with custom gaps length and associated costs. A description of the initial NW algorithm can be found here : [Needleman–Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman–Wunsch_algorithm). 
+Adaptation of the Needleman-Wunsch algorithm (which computes a global alignment between sequences) with custom gaps length and associated costs. A description of the vanilla NW algorithm can be found here : [Needleman–Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman–Wunsch_algorithm). 
 
 However, in this implementation you can define the possible gaps length and their associated costs when opening or extending a gap by the length considered. You can also change the costs of matches and mismatches (they are set to -1 and 1 by default).
 
