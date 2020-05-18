@@ -13,4 +13,6 @@ The possible gaps considered were 1 and 3, with respective probabilities of open
 
 ### Example 1 : comparing a coding sequence of Covid-19 with a coding sequence of a previous Coronavirus
 
+![Example 1](Examples/comparing_coronavirus_seq.png)
+
 ### Example 2 : comparing random sequences of size 50 and 40
