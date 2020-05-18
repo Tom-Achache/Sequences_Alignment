@@ -54,7 +54,6 @@ def cost(x, y, gaps, match_cost = -1, mismatch_cost = 1):
             bp[i,0] = (i - array_cost[np.argmin(L), 0], 0)
     
         else: # in this case we are always extending, so no need for current_cost or the max
-
             L = S[i - array_cost[:,0], 0] + array_cost[:,2]
         
             S[i,0] = np.min(L)
@@ -74,7 +73,6 @@ def cost(x, y, gaps, match_cost = -1, mismatch_cost = 1):
             bp[0,j] = (0, j - array_cost[np.argmin(L), 0])
     
         else:
-
             L = S[0, j - array_cost[:,0]] + array_cost[:,2]
         
             S[0,j] = np.min(L)
