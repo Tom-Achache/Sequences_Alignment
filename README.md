@@ -7,4 +7,4 @@ Adaptation of the Needleman-Wunsch algorithm (which computes a global alignment 
 
 ## Time complexity
 
-If the two sequences have length $n$ and $m$
+If the two sequences have length $`n`$ and $m$
